@@ -1,0 +1,35 @@
+{
+  "name": "es6-import-example",
+  "version": "1.0.0",
+  "description": "ES6 import example with babel and browserify",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcjalmeida/es6-import-example.git"
+  },
+  "keywords": [
+    "es6",
+    "import",
+    "babel",
+    "browserify"
+  ],
+  "author": "Miguel Almeida <darkmagusbr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelcjalmeida/es6-import-example/issues"
+  },
+  "homepage": "https://github.com/miguelcjalmeida/es6-import-example#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
